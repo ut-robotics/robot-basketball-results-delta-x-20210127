@@ -6,16 +6,67 @@
   ],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
-      "scores": [[], []],
+      "scores": [
+        [
+          {"time": 1611750328454, "isValid": false},
+          {"time": 1611750333010, "isValid": false},
+          {"time": 1611750335608, "isValid": false},
+          {"time": 1611750339215, "isValid": false}
+        ],
+        [
+          {"time": 1611750321454, "isValid": true},
+          {"time": 1611750323425, "isValid": true}
+        ]
+      ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
-      "runs": []
+      "runs": [{"startTime": 1611750266325, "endTime": 1611750326404}]
+    },
+    {
+      "scores": [
+        [
+          {"time": 1611750429064, "isValid": false},
+          {"time": 1611750431320, "isValid": false},
+          {"time": 1611750433873, "isValid": false},
+          {"time": 1611750519390, "isValid": true},
+          {"time": 1611750523747, "isValid": true},
+          {"time": 1611750531060, "isValid": true},
+          {"time": 1611750546330, "isValid": true}
+        ],
+        []
+      ],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": true,
+      "isConfirmed": true,
+      "roundMaxLength": 60000,
+      "runs": [
+        {"startTime": 1611750416819, "endTime": 1611750429608},
+        {"startTime": 1611750510284, "endTime": 1611750547320}
+      ]
+    },
+    {
+      "scores": [
+        [
+          {"time": 1611750632647, "isValid": true},
+          {"time": 1611750634848, "isValid": true},
+          {"time": 1611750637073, "isValid": true},
+          {"time": 1611750645375, "isValid": true}
+        ],
+        []
+      ],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": true,
+      "isConfirmed": true,
+      "roundMaxLength": 60000,
+      "runs": [{"startTime": 1611750622009, "endTime": 1611750682105}]
     }
   ],
   "ballPlacement": [

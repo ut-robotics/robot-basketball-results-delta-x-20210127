@@ -1,0 +1,34 @@
+{
+  "id": 9,
+  "robots": [
+    {"id": "true_randomness", "name": "True Randomness"},
+    {"id": "dipwookie", "name": "DipWookie"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.54, -0.02],
+    [0.54, 0.02],
+    [-0.69, 0.93],
+    [0.69, -0.93],
+    [-0.33, 0.7],
+    [0.33, -0.7],
+    [-1.97, -0.55],
+    [1.97, 0.55],
+    [1.32, 0.5],
+    [-1.32, -0.5]
+  ]
+}
