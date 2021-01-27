@@ -924,21 +924,58 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1611754948440, "isValid": true},
+                {"time": 1611754953890, "isValid": true},
+                {"time": 1611754957350, "isValid": true}
+              ],
+              [{"time": 1611754941576, "isValid": true}]
+            ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 0,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60089,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": []
+            "winnerIndex": 0,
+            "runs": [
+              {"startTime": 1611754936251, "endTime": 1611754994724},
+              {"startTime": 1611755026079, "endTime": 1611755027695}
+            ]
+          },
+          {
+            "scores": [
+              [
+                {"time": 1611755107270, "isValid": true},
+                {"time": 1611755111141, "isValid": true},
+                {"time": 1611755155527, "isValid": true}
+              ],
+              [{"time": 1611755097973, "isValid": true}]
+            ],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 44276,
+            "timeLimit": 60000,
+            "winnerIndex": 0,
+            "runs": [
+              {"startTime": 1611755087039, "endTime": 1611755119718},
+              {"startTime": 1611755147281, "endTime": 1611755158878}
+            ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "age_of_gods", "name": "Age of Gods"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-1.29, 1.19],
@@ -952,97 +989,134 @@
           [1.06, 0.22],
           [-1.06, -0.22]
         ]
+      },
+      {
+        "id": 1004,
+        "robots": [
+          {"id": "true_randomness", "name": "True Randomness"},
+          {"id": "poliver", "name": "pOliver"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.25, 1.33],
+          [-0.25, -1.33],
+          [1.91, 0.84],
+          [-1.91, -0.84],
+          [0.94, 1.06],
+          [-0.94, -1.06],
+          [1.25, -1.34],
+          [-1.25, 1.34],
+          [0.31, -0.59],
+          [-0.31, 0.59]
+        ]
       }
     ],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
-    "noLossQueue": [],
-    "oneLossQueue": [
-      {"id": "true_randomness", "name": "True Randomness"},
-      {"id": "poliver", "name": "pOliver"}
-    ],
+    "gameTypes": {
+      "1001": "noLoss",
+      "1002": "noLoss",
+      "1003": "noLoss",
+      "1004": "oneLoss"
+    },
+    "noLossQueue": [{"id": "age_of_gods", "name": "Age of Gods"}],
+    "oneLossQueue": [{"id": "dipwookie", "name": "DipWookie"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "age_of_gods": ["blue", "magenta", "blue", "magenta"],
-      "true_randomness": ["magenta", "magenta", "magenta"],
-      "poliver": ["blue", "magenta", "blue"],
+      "true_randomness": ["magenta", "magenta", "magenta", "blue"],
+      "poliver": ["blue", "magenta", "blue", "magenta"],
       "dipwookie": ["blue", "magenta", "blue", "magenta", "blue"]
     },
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1002,
+    "id": 1003,
     "robots": [
-      {"id": "poliver", "name": "pOliver"},
+      {"id": "age_of_gods", "name": "Age of Gods"},
       {"id": "dipwookie", "name": "DipWookie"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
     "hasEnded": true,
     "rounds": [
       {
         "scores": [
-          [],
           [
-            {"time": 1611754396441, "isValid": true},
-            {"time": 1611754400645, "isValid": true},
-            {"time": 1611754414408, "isValid": true},
-            {"time": 1611754462610, "isValid": false}
-          ]
+            {"time": 1611754948440, "isValid": true},
+            {"time": 1611754953890, "isValid": true},
+            {"time": 1611754957350, "isValid": true}
+          ],
+          [{"time": 1611754941576, "isValid": true}]
         ],
-        "fouls": [[], [{"time": 1611754436358}]],
-        "baskets": ["blue", "magenta"],
+        "fouls": [[], []],
+        "baskets": ["magenta", "blue"],
         "hasEnded": true,
         "isConfirmed": true,
-        "duration": 60020,
+        "duration": 60089,
         "timeLimit": 60000,
-        "winnerIndex": 1,
+        "winnerIndex": 0,
         "runs": [
-          {"startTime": 1611754375814, "endTime": 1611754430201},
-          {"startTime": 1611754454714, "endTime": 1611754460347}
+          {"startTime": 1611754936251, "endTime": 1611754994724},
+          {"startTime": 1611755026079, "endTime": 1611755027695}
         ]
       },
       {
         "scores": [
-          [],
           [
-            {"time": 1611754594291, "isValid": true},
-            {"time": 1611754597710, "isValid": true},
-            {"time": 1611754602338, "isValid": true},
-            {"time": 1611754615412, "isValid": true}
-          ]
+            {"time": 1611755107270, "isValid": true},
+            {"time": 1611755111141, "isValid": true},
+            {"time": 1611755155527, "isValid": true}
+          ],
+          [{"time": 1611755097973, "isValid": true}]
         ],
-        "fouls": [[], [{"time": 1611754626186}]],
-        "baskets": ["magenta", "blue"],
+        "fouls": [[], []],
+        "baskets": ["blue", "magenta"],
         "hasEnded": true,
         "isConfirmed": true,
-        "duration": 60027,
+        "duration": 44276,
         "timeLimit": 60000,
-        "winnerIndex": 1,
+        "winnerIndex": 0,
         "runs": [
-          {"startTime": 1611754587067, "endTime": 1611754620081},
-          {"startTime": 1611754653513, "endTime": 1611754680526}
+          {"startTime": 1611755087039, "endTime": 1611755119718},
+          {"startTime": 1611755147281, "endTime": 1611755158878}
         ]
       }
     ],
     "status": {
       "result": "won",
-      "winner": {"id": "dipwookie", "name": "DipWookie"},
+      "winner": {"id": "age_of_gods", "name": "Age of Gods"},
       "roundWinCount": 2,
       "roundLossCount": 0,
       "roundTieCount": 0
     },
     "ballPlacement": [
       [0, 0],
-      [0.23, -0.35],
-      [-0.23, 0.35],
-      [0.36, 1.39],
-      [-0.36, -1.39],
-      [1.08, -0.6],
-      [-1.08, 0.6],
-      [-0.27, 0.86],
-      [0.27, -0.86],
-      [1.06, 0.5],
-      [-1.06, -0.5]
+      [-1.29, 1.19],
+      [1.29, -1.19],
+      [1.26, -0.69],
+      [-1.26, 0.69],
+      [-1.47, 0.06],
+      [1.47, -0.06],
+      [0.05, -1.14],
+      [-0.05, 1.14],
+      [1.06, 0.22],
+      [-1.06, -0.22]
     ]
   }
 }
