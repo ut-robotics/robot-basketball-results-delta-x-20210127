@@ -1,0 +1,42 @@
+{
+  "id": "delta-x-2021",
+  "name": "Delta X 2021 robot basketball",
+  "robots": [
+    {"id": "madmax", "name": "MAD MAX"},
+    {"id": "true_randomness", "name": "True Randomness"},
+    {"id": "poliver", "name": "pOliver"},
+    {"id": "space_jam", "name": "Space Jam"},
+    {"id": "tulihand", "name": "Tulihänd"},
+    {"id": "dipwookie", "name": "DipWookie"},
+    {"id": "age_of_gods", "name": "Age of Gods"}
+  ],
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "true_randomness", "name": "True Randomness"},
+      {"id": "madmax", "name": "MAD MAX"},
+      {"id": "dipwookie", "name": "DipWookie"},
+      {"id": "space_jam", "name": "Space Jam"},
+      {"id": "tulihand", "name": "Tulihänd"},
+      {"id": "age_of_gods", "name": "Age of Gods"},
+      {"id": "poliver", "name": "pOliver"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3],
+    "byes": [{"robotID": "poliver"}],
+    "robotStartingBaskets": {
+      "true_randomness": ["magenta"],
+      "madmax": ["blue"],
+      "dipwookie": ["blue"],
+      "space_jam": ["magenta"],
+      "tulihand": ["magenta"],
+      "age_of_gods": ["blue"],
+      "poliver": []
+    },
+    "hasEnded": false
+  }
+}
