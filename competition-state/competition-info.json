@@ -50,22 +50,34 @@
       {"id": "poliver", "name": "pOliver"},
       {"id": "dipwookie", "name": "DipWookie"}
     ],
-    "gameIDs": [1001, 1002, 1003, 1004, 1005],
+    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006],
     "gameTypes": {
       "1001": "noLoss",
       "1002": "noLoss",
       "1003": "noLoss",
       "1004": "oneLoss",
-      "1005": "oneLoss"
+      "1005": "oneLoss",
+      "1006": "firstFinal"
     },
-    "noLossQueue": [{"id": "age_of_gods", "name": "Age of Gods"}],
+    "noLossQueue": [],
     "oneLossQueue": [],
-    "eliminatedRobots": [{"id": "poliver", "name": "pOliver"}],
+    "eliminatedRobots": [
+      {"id": "poliver", "name": "pOliver"},
+      {"id": "true_randomness", "name": "True Randomness"}
+    ],
     "robotStartingBaskets": {
-      "age_of_gods": ["blue", "magenta", "blue", "magenta"],
+      "age_of_gods": ["blue", "magenta", "blue", "magenta", "blue"],
       "true_randomness": ["magenta", "magenta", "magenta", "blue", "blue"],
       "poliver": ["blue", "magenta", "blue", "magenta"],
-      "dipwookie": ["blue", "magenta", "blue", "magenta", "blue", "magenta"]
+      "dipwookie": [
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "magenta"
+      ]
     },
     "hasEnded": false
   }

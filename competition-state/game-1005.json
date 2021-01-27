@@ -6,16 +6,66 @@
   ],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": false,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
-      "scores": [[], []],
+      "scores": [
+        [
+          {"time": 1611756039791, "isValid": true},
+          {"time": 1611756043452, "isValid": true},
+          {"time": 1611756049433, "isValid": true},
+          {"time": 1611756055745, "isValid": true}
+        ],
+        [
+          {"time": 1611756047835, "isValid": true},
+          {"time": 1611756058726, "isValid": true}
+        ]
+      ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
-      "runs": []
+      "runs": [{"startTime": 1611756034651, "endTime": 1611756094714}]
+    },
+    {
+      "scores": [
+        [
+          {"time": 1611756169050, "isValid": true},
+          {"time": 1611756173619, "isValid": true},
+          {"time": 1611756186158, "isValid": true}
+        ],
+        [
+          {"time": 1611756177183, "isValid": true},
+          {"time": 1611756187076, "isValid": true},
+          {"time": 1611756250139, "isValid": true}
+        ]
+      ],
+      "fouls": [[{"time": 1611756213709}], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": true,
+      "isConfirmed": true,
+      "roundMaxLength": 60000,
+      "runs": [
+        {"startTime": 1611756160904, "endTime": 1611756196827},
+        {"startTime": 1611756239225, "endTime": 1611756263376}
+      ]
+    },
+    {
+      "scores": [
+        [
+          {"time": 1611756374295, "isValid": true},
+          {"time": 1611756378916, "isValid": true},
+          {"time": 1611756387226, "isValid": true}
+        ],
+        [{"time": 1611756383934, "isValid": true}]
+      ],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": true,
+      "isConfirmed": true,
+      "roundMaxLength": 60000,
+      "runs": [{"startTime": 1611756361190, "endTime": 1611756417479}]
     }
   ],
   "ballPlacement": [
