@@ -26,16 +26,16 @@
       {"id": "poliver", "name": "pOliver"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3],
-    "byes": [{"robotID": "poliver"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "byes": [{"robotID": "poliver"}, {"robotID": "true_randomness"}],
     "robotStartingBaskets": {
       "true_randomness": ["magenta"],
-      "madmax": ["blue"],
-      "dipwookie": ["blue"],
-      "space_jam": ["magenta"],
-      "tulihand": ["magenta"],
-      "age_of_gods": ["blue"],
-      "poliver": []
+      "madmax": ["blue", "blue"],
+      "dipwookie": ["blue", "magenta"],
+      "space_jam": ["magenta", "blue"],
+      "tulihand": ["magenta", "magenta"],
+      "age_of_gods": ["blue", "magenta"],
+      "poliver": ["blue"]
     },
     "hasEnded": false
   }
