@@ -59,11 +59,12 @@
       "1005": "oneLoss",
       "1006": "firstFinal"
     },
-    "noLossQueue": [],
+    "noLossQueue": [{"id": "age_of_gods", "name": "Age of Gods"}],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "poliver", "name": "pOliver"},
-      {"id": "true_randomness", "name": "True Randomness"}
+      {"id": "true_randomness", "name": "True Randomness"},
+      {"id": "dipwookie", "name": "DipWookie"}
     ],
     "robotStartingBaskets": {
       "age_of_gods": ["blue", "magenta", "blue", "magenta", "blue"],
@@ -79,6 +80,6 @@
         "magenta"
       ]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
