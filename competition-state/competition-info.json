@@ -41,6 +41,29 @@
       "age_of_gods": ["blue", "magenta"],
       "poliver": ["blue", "magenta"]
     },
+    "hasEnded": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "age_of_gods", "name": "Age of Gods"},
+      {"id": "true_randomness", "name": "True Randomness"},
+      {"id": "poliver", "name": "pOliver"},
+      {"id": "dipwookie", "name": "DipWookie"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "poliver", "name": "pOliver"},
+      {"id": "dipwookie", "name": "DipWookie"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "age_of_gods": ["blue", "magenta", "blue"],
+      "true_randomness": ["magenta", "magenta", "magenta"],
+      "poliver": ["blue", "magenta"],
+      "dipwookie": ["blue", "magenta", "blue"]
+    },
     "hasEnded": false
   }
 }
