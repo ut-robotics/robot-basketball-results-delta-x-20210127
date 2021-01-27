@@ -487,21 +487,49 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[], []],
-            "fouls": [[], []],
+            "fouls": [[], [{"time": 1611751015040}]],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 0,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60021,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [
+              {"startTime": 1611750967173, "endTime": 1611750984619},
+              {"startTime": 1611751027145, "endTime": 1611751069720}
+            ]
+          },
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60102,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": [{"startTime": 1611751131713, "endTime": 1611751191815}]
+          },
+          {
+            "scores": [[], []],
+            "fouls": [[], [{"time": 1611751352007}]],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60016,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": [
+              {"startTime": 1611751296723, "endTime": 1611751317902},
+              {"startTime": 1611751368062, "endTime": 1611751406899}
+            ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {"result": "tied"},
         "ballPlacement": [
           [0, 0],
           [-1.81, -0.8],
@@ -599,18 +627,18 @@
     "robotScores": [
       {
         "robot": {"id": "madmax", "name": "MAD MAX"},
-        "score": 0,
-        "tieBreakScore": 4.3
-      },
-      {
-        "robot": {"id": "space_jam", "name": "Space Jam"},
         "score": 0.5,
-        "tieBreakScore": 2.5
+        "tieBreakScore": 4.8
       },
       {
         "robot": {"id": "tulihand", "name": "Tulihänd"},
         "score": 0.5,
-        "tieBreakScore": 4.4
+        "tieBreakScore": 4.9
+      },
+      {
+        "robot": {"id": "space_jam", "name": "Space Jam"},
+        "score": 1,
+        "tieBreakScore": 3
       },
       {
         "robot": {"id": "poliver", "name": "pOliver"},
@@ -620,12 +648,12 @@
       {
         "robot": {"id": "true_randomness", "name": "True Randomness"},
         "score": 1.8,
-        "tieBreakScore": 2
+        "tieBreakScore": 2.5
       },
       {
         "robot": {"id": "dipwookie", "name": "DipWookie"},
         "score": 2,
-        "tieBreakScore": 2.3
+        "tieBreakScore": 3.3
       },
       {
         "robot": {"id": "age_of_gods", "name": "Age of Gods"},
@@ -645,101 +673,68 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 6,
+    "id": 7,
     "robots": [
-      {"id": "age_of_gods", "name": "Age of Gods"},
-      {"id": "poliver", "name": "pOliver"}
+      {"id": "madmax", "name": "MAD MAX"},
+      {"id": "space_jam", "name": "Space Jam"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
     "hasEnded": true,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1611750328454, "isValid": false},
-            {"time": 1611750333010, "isValid": false},
-            {"time": 1611750335608, "isValid": false},
-            {"time": 1611750339215, "isValid": false}
-          ],
-          [
-            {"time": 1611750321454, "isValid": true},
-            {"time": 1611750323425, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60079,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1611750266325, "endTime": 1611750326404}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1611750429064, "isValid": false},
-            {"time": 1611750431320, "isValid": false},
-            {"time": 1611750433873, "isValid": false},
-            {"time": 1611750519390, "isValid": true},
-            {"time": 1611750523747, "isValid": true},
-            {"time": 1611750531060, "isValid": true},
-            {"time": 1611750546330, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[], []],
+        "scores": [[], []],
+        "fouls": [[], [{"time": 1611751015040}]],
         "baskets": ["blue", "magenta"],
         "hasEnded": true,
         "isConfirmed": true,
-        "duration": 49825,
+        "duration": 60021,
         "timeLimit": 60000,
-        "winnerIndex": 0,
+        "winnerIndex": -1,
         "runs": [
-          {"startTime": 1611750416819, "endTime": 1611750429608},
-          {"startTime": 1611750510284, "endTime": 1611750547320}
+          {"startTime": 1611750967173, "endTime": 1611750984619},
+          {"startTime": 1611751027145, "endTime": 1611751069720}
         ]
       },
       {
-        "scores": [
-          [
-            {"time": 1611750632647, "isValid": true},
-            {"time": 1611750634848, "isValid": true},
-            {"time": 1611750637073, "isValid": true},
-            {"time": 1611750645375, "isValid": true}
-          ],
-          []
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
         "isConfirmed": true,
-        "duration": 60096,
+        "duration": 60102,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1611750622009, "endTime": 1611750682105}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1611751131713, "endTime": 1611751191815}]
+      },
+      {
+        "scores": [[], []],
+        "fouls": [[], [{"time": 1611751352007}]],
+        "baskets": ["blue", "magenta"],
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60016,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": [
+          {"startTime": 1611751296723, "endTime": 1611751317902},
+          {"startTime": 1611751368062, "endTime": 1611751406899}
+        ]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "age_of_gods", "name": "Age of Gods"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "tied"},
     "ballPlacement": [
       [0, 0],
-      [1.41, 1.1],
-      [-1.41, -1.1],
-      [-1.78, 0.44],
-      [1.78, -0.44],
-      [-0.5, -0.94],
-      [0.5, 0.94],
-      [1.37, 0.66],
-      [-1.37, -0.66],
-      [0.67, -0.36],
-      [-0.67, 0.36]
+      [-1.81, -0.8],
+      [1.81, 0.8],
+      [0.52, 0.67],
+      [-0.52, -0.67],
+      [-0.32, 0.99],
+      [0.32, -0.99],
+      [-1.82, 0.75],
+      [1.82, -0.75],
+      [-1.09, 1.09],
+      [1.09, -1.09]
     ]
   }
 }
